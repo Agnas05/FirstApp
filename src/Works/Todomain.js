@@ -200,7 +200,7 @@ function Todomain() {
 <Nav.Link style={{padding:0}}href="/works">Back</Nav.Link>
   </Button>
 </Nav> */}
-      <img style={{ position: 'absolute', zIndex: -1, width: 1263 }} src={require("../images/todo1.jpg")} />
+      <img style={{ position: 'absolute', zIndex: -1, width: 1349 }} src={require("../images/todo1.jpg")} />
       <div className="container App">
 
         <br /><br />

@@ -21,7 +21,7 @@ function Works() {
         </Container>
 
       </Navbar>
-      <img style={{ position: 'absolute', width: 1263, zIndex: -1 }} src={require("../images/purple.png")} />
+      <img style={{ position: 'absolute', width: 1349, zIndex: -1 }} src={require("../images/purple.png")} />
       <Nav className="me-auto">
 
         <b><NavLink style={{ marginTop: 20, marginLeft: 600, position: "absolute", color: "white", top: -10 }} to="/works/crud">Crud</NavLink></b>

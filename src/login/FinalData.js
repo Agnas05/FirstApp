@@ -27,7 +27,7 @@ function FinalData() {
   }
   return (
     <>
-      <img style={{ position: 'absolute', zIndex: -1, width: 1263 }} src={require("../images/register.jpg")} />
+      <img style={{ position: 'absolute', zIndex: -1, width: 1349 }} src={require("../images/register.jpg")} />
       <Nav className="me-auto">
         <Button type="primary" style={{ marginLeft: 1000, marginTop: 20, position: "absolute", top: -8 }} htmlType="logout">
           <Link to="/register/login" onClick={logout}>Logout</Link>

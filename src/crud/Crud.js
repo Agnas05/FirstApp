@@ -20,13 +20,13 @@ function Crud() {
             </nav>
             </Container>
             </Navbar>
-      <img style={{ position: 'absolute', zIndex: -1, width: 1280 }} src={require("../images/wse.jpg")} />
+      {/* <img style={{ position: 'absolute', zIndex: -1, width: 1350 }} src={require("../images/wse.jpg")} /> */}
       {/* <Nav className="me-auto" style={{position: "absolute", top: 12, marginLeft: 1140}}>
             <Button type="primary" >
         <Nav.Link style={{padding:0}}href="/works">Back</Nav.Link>
             </Button>
         </Nav> */}
-      <div className="App">
+      <div className="App"  style={{background:"#254497",height:1000}}>
         <ContextProvider>
           <Forms />
           <Datable />

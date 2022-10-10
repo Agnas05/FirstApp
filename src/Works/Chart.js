@@ -55,7 +55,7 @@ const Chart = () => {
   {/* </Button> */}
 {/* </Nav> */}
 </Navbar>
-  <img style={{ position: 'absolute',zIndex:-1, width: 1263 }} src={require("../images/zuGOUB.jpg")} />
+  <img style={{ position: 'absolute',zIndex:-1, width: 1349 }} src={require("../images/zuGOUB.jpg")} />
   <Column {...config} />
   
 </>);

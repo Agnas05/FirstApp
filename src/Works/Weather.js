@@ -74,7 +74,7 @@ const Weather = () => {
             </nav>
             </Container>
             </Navbar>
-      <img style={{ width: 1263, height: 800, position: "absolute" }} src={require("../images/bluepurple.png")} />
+      <img style={{ width: 1349, height: 800, position: "absolute" }} src={require("../images/bluepurple.png")} />
       <div className="DisplayWeather" style={{ padding: 30 }}>
         <div className=" justify-content-center">
 
