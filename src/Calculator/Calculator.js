@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import './Calculator.css';
 import { Button, Checkbox, Form, Input } from 'antd';
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Navigate, NavLink, Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 
 const Calculator = () => {
   const [input, setInput] = useState("");
@@ -10,7 +13,16 @@ const Calculator = () => {
     setInput(e.target.value);
   }
   return (
+    <>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <nav className="me-auto">
+            <Link style={{marginRight:20}} to="/">Home</Link>
+            </nav>
+            </Container>
+            </Navbar>
     <section className="back">
+
       <div className="calculator-grid">
         <center>
 
@@ -63,6 +75,7 @@ const Calculator = () => {
         </center>
       </div>
     </section>
+    </>
   )
 }
 

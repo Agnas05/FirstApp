@@ -6,6 +6,9 @@ import sunny from './sunny.jpg';
 import cloudy from './cloudy.jpg';
 import Nav from 'react-bootstrap/Nav';
 import { Button } from 'antd';
+import Navbar from 'react-bootstrap/Navbar';
+import { Navigate, NavLink, Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 
 const Weather = () => {
 
@@ -64,6 +67,13 @@ const Weather = () => {
   console.log("loc", location);
   return (
     <>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <nav className="me-auto">
+            <Link style={{marginRight:20}} to="/">Home</Link>
+            </nav>
+            </Container>
+            </Navbar>
       <img style={{ width: 1263, height: 800, position: "absolute" }} src={require("../images/bluepurple.png")} />
       <div className="DisplayWeather" style={{ padding: 30 }}>
         <div className=" justify-content-center">

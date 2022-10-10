@@ -2,6 +2,10 @@ import { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { Button, Checkbox, Form, Input } from 'antd';
 import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import { Navigate, NavLink, Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -184,6 +188,13 @@ function Todomain() {
 
   return (
     <>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <nav className="me-auto">
+            <Link style={{marginRight:20}} to="/">Home</Link>
+            </nav>
+            </Container>
+            </Navbar>
       {/* <Nav className="me-auto" style={{position: "absolute", top: 12, marginLeft: 1140}}>
   <Button type="primary" >
 <Nav.Link style={{padding:0}}href="/works">Back</Nav.Link>

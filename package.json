@@ -2,7 +2,7 @@
   "name": "form",
   "version": "0.1.0",
   "private": false,
-  
+  "homepage":"https://agnas05.github.io/FirstApp/react-app",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@ant-design/plots": "^1.2.2",

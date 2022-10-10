@@ -4,6 +4,10 @@ import JsonData from "./MOCK_DATA.json";
 import ReactPaginate from "react-paginate";
 import Nav from 'react-bootstrap/Nav';
 import { Button } from 'antd';
+import Navbar from 'react-bootstrap/Navbar';
+import { Navigate, NavLink, Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+
 
 function Paginate() {
   const [users, setUsers] = useState(JsonData.slice(0, 20));
@@ -31,6 +35,13 @@ function Paginate() {
 
   return (
     <>
+     <Navbar bg="dark" variant="dark">
+        <Container>
+          <nav className="me-auto">
+            <Link style={{marginRight:20}} to="/">Home</Link>
+            </nav>
+            </Container>
+            </Navbar>
       {/* <Nav className="me-auto" style={{position: "absolute", top: 10,marginLeft:1078}}>
         <Button type="primary" >
           <Nav.Link style={{ padding: 0 }} href="/works">Back</Nav.Link>
